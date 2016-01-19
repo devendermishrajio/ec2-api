@@ -1,0 +1,13 @@
+coverage
+setuptools-git
+babel
+websockify
+wsgiref
+oslo.config python-oslo-config
+oslo.concurrency python-oslo-concurrency
+oslo.db python-oslo-db
+oslo.log python-oslo-log
+oslo.messaging python-oslo-messaging
+oslo.serialization python-oslo-serialization
+oslo.utils python-oslo-utils
+

@@ -1,0 +1,16 @@
+Source: ec2-api
+Priority: optional
+Maintainer: JioCloud Compute <jiocloudcompute.team@rilcom>
+Build-Depends: python-setuptools, python-all, debhelper
+Build-Depends-Indep: python-pbr (>= 0.6)
+Standards-Version: 3.9.6
+Homepage: https://github.com/JioCloud/monitor-common
+X-Python-Version: >= 2.7
+
+Package: python-ec2-api
+Architecture: all
+Depends: 
+ ${python:Depends}, ${misc:Depends}
+Description: EC2 API
+ This provides support for EC2 API over openstack.
+
