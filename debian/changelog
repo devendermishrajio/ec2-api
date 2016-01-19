@@ -1,0 +1,4 @@
+ec2-api (0.2.1-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Initial debian build.
+
