@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
+DEBVERS ?= $(shell dpkg-parsechangelog | sed -n -e 's/^Version: //p')
+VERSION ?= $(shell echo '$(DEBVERS)' | sed -e 's/^[[:digit:]]*://' -e 's/[-].*//')
+export OSLO_PACKAGE_VERSION=$(VERSION)
 
 %:
 	        dh $@ --with python2
