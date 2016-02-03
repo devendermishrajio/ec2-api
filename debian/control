@@ -7,7 +7,7 @@ Standards-Version: 3.9.6
 Homepage: https://github.com/JioCloud/monitor-common
 X-Python-Version: >= 2.7
 
-Package: ec2api
+Package: python-ec2-api
 Architecture: all
 Depends: 
  ${python:Depends}, ${misc:Depends}
