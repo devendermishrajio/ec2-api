@@ -2,7 +2,7 @@
 #DEBVERS ?= $(shell dpkg-parsechangelog | sed -n -e 's/^Version: //p')
 #VERSION ?= $(shell echo '$(DEBVERS)' | sed -e 's/^[[:digit:]]*://' -e 's/[-].*//')
 #export OSLO_PACKAGE_VERSION=$(VERSION)
-#export PBR_VERSION=$(shell dpkg-parsechangelog --show-field Version)
+export PBR_VERSION=$(shell dpkg-parsechangelog --show-field Version)
 %:
 	        dh $@ --with python2
 
