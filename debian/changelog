@@ -1,0 +1,9 @@
+ec2-api (0.2) UNRELEASED; urgency=medium
+  [ Devender Mishra ]
+  * Initial release.
+
+  [ Ubuntu ]
+  * Build from custom git repo
+
+ -- Devender Mishra <Devender.Mishra@ril.com>  Fri, 06 Nov 2015 10:51:36 +0530
+
