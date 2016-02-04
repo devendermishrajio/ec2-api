@@ -11,8 +11,7 @@ X-Python-Version: >= 2.7
 Package: python-ec2-api
 Architecture: all
 Section: python
-Depends: python (>= 2.7) | python-argparse,
- ${python:Depends}, ${misc:Depends}
+Depends: python:any (>= 2.7.5-5~), python-glanceclient, python-webob, python-greenlet, python-babel, python-sqlalchemy, python-oslo-db, python-pastedeploy, python-eventlet, python-jsonschema, python-oslo-log, python-stevedore, python-anyjson, python (>= 2.7) | python-argparse, python-novaclient, python-iso8601, python-cinderclient, python-pyasn1, python-oslo-config, python-paramiko, python-six, python-oslo-concurrency, python-pyasn1-modules, python-migrate, python-pbr, python-neutronclient, python-oslo-serialization, python-boto, python-oslo-utils, python-lxml, python, python-oslo-messaging, python-httplib2, python-keystoneclient, ${python:Depends}, ${misc:Depends}
 Description: EC2 API
  This provides support for EC2 API over openstack.
 
